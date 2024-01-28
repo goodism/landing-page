@@ -1,0 +1,134 @@
+body{
+    display:block;
+    font-family:'source code pro' ;
+}
+
+.header-link{
+    color: blue;
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+/* HEADER */
+
+a{
+   text-decoration: none;
+   font-size: 5rem;
+}
+
+
+
+/* MAIN */
+
+h1{
+    font-size: 4.5rem;
+}
+
+h2{
+    font-size: 2rem;
+  text-align: right;
+  padding-right: 1rem;
+}
+
+
+
+img{
+    max-width: 95%;
+    border: .5rem solid black;
+    align-content:center ;
+    margin: 1rem 0 2rem 0;
+}
+
+.stars{
+    text-align: center;
+}
+p{
+    padding:0 .5rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+h1{
+    font-size: 17rem;
+    margin:1rem;
+    padding-left: 3rem;
+}
+
+
+h2{
+    font-size: 4rem;
+    padding-right:3rem;
+}
+
+.intro{
+height: 100vh;
+}
+
+.bio{
+    display: flex;
+
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+}
+/* PROJECTS! */
+
+.projects{
+    background-color: #d1ff52;
+}
+.project-wrapper{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.project-link{
+  text-align: center;
+    background-color: black;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+h3{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    padding-top: 3rem;
+    /* transform: rotate(10deg) */
+}
+
+article{
+text-align: center;
+}
+
+@media only screen and (min-width: 768px){
+
+
+
+}
+/* FOOTER */
+
+footer{
+    background-color: blue;
+    color: #fff;
+    padding: 2rem 3rem 0 3rem ;
+    border-radius:20px ;
+text-align: center;
+  }
+
+  /* .footer-smiley
+  {
+    padding:0;
+    margin:0;
+float:right;
+  font-size: 4rem;
+  } */
